@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "incremental": true,
+    "target": "ES2017",
+    "outDir": "build/main",
+    "rootDir": "src",
+    "moduleResolution": "node",
+    "module": "CommonJS",
+    "declaration": true,
+    "inlineSourceMap": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "strict": true,
+    "lib": ["dom", "esnext"],
+    "skipLibCheck": true,
+    "typeRoots": ["./node_modules/@types", "./custom_typings"]
+  },
+  "include": ["**/*.ts"],
+  "exclude": ["node_modules/**"],
+  "compileOnSave": false
+}
