@@ -1,6 +1,6 @@
 {
   "name": "@nanoauth/base",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "A lightweight browser-side library for managing OAuth2 flows in a popup",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
