@@ -6,6 +6,9 @@
   "typings": "dist/index.d.ts",
   "module": "dist/index.mjs",
   "access": "public",
+  "publishConfig": {
+    "access": "public"
+  },
   "files": [
     "dist/",
     "!**/*.spec.ts",
@@ -23,5 +26,5 @@
   "dependencies": {
     "@nanoauth/base": "1.0.0"
   },
-  "gitHead": "a68f9d5f2c5e29ef4886d752c40852e736b3e28b"
+  "gitHead": "3e361c59f0264f9c79feb7b0edf35b2c6f31c5c5"
 }
