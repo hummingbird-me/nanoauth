@@ -5,6 +5,7 @@
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "module": "dist/index.mjs",
+  "access": "public",
   "files": [
     "dist/",
     "!**/*.spec.ts",
@@ -18,5 +19,6 @@
   "contributors": [
     "Emma Lejeck <nuck@kitsu.io> (https://kitsu.io/users/nuck)"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "gitHead": "0a2b4dee67f5a66bb5c036bb8775034131a0a9e4"
 }
