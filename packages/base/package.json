@@ -1,0 +1,22 @@
+{
+  "name": "@nanoauth/base",
+  "version": "1.0.0",
+  "description": "A lightweight browser-side library for managing OAuth2 flows in a popup",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "module": "dist/index.mjs",
+  "files": [
+    "dist/",
+    "!**/*.spec.ts",
+    "!**/*.json",
+    "README.md"
+  ],
+  "scripts": {
+    "prepare": "tsup"
+  },
+  "author": "Kitsu Team <developers@kitsu.io> (https://kitsu.io/)",
+  "contributors": [
+    "Emma Lejeck <nuck@kitsu.io> (https://kitsu.io/users/nuck)"
+  ],
+  "license": "MIT"
+}
