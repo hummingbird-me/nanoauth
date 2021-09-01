@@ -1,6 +1,6 @@
 {
   "name": "@nanoauth/myanimelist",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "NanoAuth library for retrieving a MyAnimeList token",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
