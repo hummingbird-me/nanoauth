@@ -1,11 +1,9 @@
 {
   "compilerOptions": {
-    "incremental": true,
-    "target": "ES2017",
-    "outDir": "build/main",
-    "rootDir": "src",
+    "target": "ESNext",
+    "outDir": "dist/es",
     "moduleResolution": "node",
-    "module": "CommonJS",
+    "module": "ESNext",
     "declaration": true,
     "inlineSourceMap": true,
     "esModuleInterop": true,
