@@ -1,6 +1,6 @@
 {
   "name": "@nanoauth/middleware",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A collection of useful middleware for NanoAuth",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -25,6 +25,6 @@
   "license": "MIT",
   "gitHead": "3e361c59f0264f9c79feb7b0edf35b2c6f31c5c5",
   "dependencies": {
-    "@nanoauth/base": "^0.2.0"
+    "@nanoauth/base": "^0.2.1"
   }
 }

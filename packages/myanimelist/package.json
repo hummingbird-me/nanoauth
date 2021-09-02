@@ -1,6 +1,6 @@
 {
   "name": "@nanoauth/myanimelist",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "NanoAuth library for retrieving a MyAnimeList token",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -24,8 +24,8 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "@nanoauth/base": "^0.2.0",
-    "@nanoauth/middleware": "^0.1.0"
+    "@nanoauth/base": "^0.2.1",
+    "@nanoauth/middleware": "^0.1.1"
   },
   "gitHead": "3e361c59f0264f9c79feb7b0edf35b2c6f31c5c5"
 }
