@@ -1,7 +1,7 @@
 {
-  "name": "@nanoauth/base",
-  "version": "0.2.0",
-  "description": "A lightweight browser-side library for managing OAuth2 flows in a popup",
+  "name": "@nanoauth/middleware",
+  "version": "0.1.0",
+  "description": "A collection of useful middleware for NanoAuth",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "module": "dist/index.mjs",
@@ -23,5 +23,8 @@
     "Emma Lejeck <nuck@kitsu.io> (https://kitsu.io/users/nuck)"
   ],
   "license": "MIT",
-  "gitHead": "3e361c59f0264f9c79feb7b0edf35b2c6f31c5c5"
+  "gitHead": "3e361c59f0264f9c79feb7b0edf35b2c6f31c5c5",
+  "dependencies": {
+    "@nanoauth/base": "^0.2.0"
+  }
 }
