@@ -24,7 +24,8 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "@nanoauth/base": "1.0.0"
+    "@nanoauth/base": "^0.2.0",
+    "@nanoauth/middleware": "^0.1.0"
   },
   "gitHead": "3e361c59f0264f9c79feb7b0edf35b2c6f31c5c5"
 }
