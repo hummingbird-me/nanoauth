@@ -17,6 +17,7 @@
     "README.md"
   ],
   "scripts": {
+    "test": "jest",
     "prepare": "tsup"
   },
   "author": "Kitsu Team <developers@kitsu.io> (https://kitsu.io/)",
