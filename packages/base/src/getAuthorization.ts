@@ -7,12 +7,12 @@ import {
 
 type Config = {
   url: string;
-  middlewares: MiddlewareInstance[];
+  middlewares?: MiddlewareInstance[];
 };
 
 export default function getAuthorization({
   url,
-  middlewares,
+  middlewares = [],
 }: Config): Promise<OAuth2Response> {
   return applyMiddleware(middlewares, (url) => {
     return new Promise((resolve, reject) => {
