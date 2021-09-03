@@ -12,8 +12,9 @@ export function applyMiddleware(
   then: (url: string) => Promise<OAuth2Response>
 ): (url: string) => Promise<OAuth2Response> {
   let next = (url: string) => then(url);
-  for (let i = middlewares.length; i > 0; i--) {
-    next = (url: string) => middlewares[i](url, next);
+  for (let i = middlewares.length - 1; i >= 0; i--) {
+    const _next = next;
+    next = (url: string) => middlewares[i](url, _next);
   }
   return next;
 }
