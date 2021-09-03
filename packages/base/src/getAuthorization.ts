@@ -28,7 +28,7 @@ export default function getAuthorization({
       const listener = (
         event: MessageEvent<{
           type: 'nanoauth.return';
-          params: [string, string][];
+          params: Record<string, string>;
         }>
       ) => {
         if (event.origin !== window.location.origin) return;

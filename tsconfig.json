@@ -9,7 +9,7 @@
     "esModuleInterop": true,
     "resolveJsonModule": true,
     "strict": true,
-    "lib": ["dom", "esnext"],
+    "lib": ["dom", "dom.iterable", "esnext"],
     "skipLibCheck": true,
     "typeRoots": ["./node_modules/@types", "./custom_typings"]
   },

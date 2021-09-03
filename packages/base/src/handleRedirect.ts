@@ -12,7 +12,7 @@ export default function handleRedirect(): void {
   window.opener?.postMessage(
     {
       type: 'nanoauth.return',
-      params,
+      params: Object.fromEntries(params),
     },
     location.origin
   );
