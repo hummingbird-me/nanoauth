@@ -1,7 +1,8 @@
 module.exports = {
   clearMocks: true,
   collectCoverage: process.env.COVERAGE === 'true',
-  coverageProvider: 'v8',
+  collectCoverageFrom: ['src/**/*.ts'],
+  coverageProvider: 'babel',
   testEnvironment: 'jsdom',
   testRunner: 'jest-circus/runner',
   cacheDirectory: '.jest/cache',
