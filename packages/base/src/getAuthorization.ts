@@ -32,22 +32,16 @@ export default function getAuthorization({
         }>
       ) => {
         if (event.origin !== window.location.origin) return;
-        if (!event.data.type) return;
-        if (!event.data.type.startsWith('nanoauth.')) return;
+        if (event.data?.type !== 'nanoauth.return') return;
 
-        const { type, params } = event.data;
-        if (type === 'nanoauth.return') {
-          const response = Object.fromEntries(params);
-          if (response.error) {
-            reject(
-              new ERROR_MAPPING[response.error](response.error_description)
-            );
-          } else {
-            resolve(response);
-          }
-          authWindow.close();
-          window.removeEventListener('message', listener);
+        const { params } = event.data;
+        if (params.error) {
+          reject(new ERROR_MAPPING[params.error](params.error_description));
+        } else {
+          resolve(params);
         }
+        authWindow.close();
+        window.removeEventListener('message', listener);
       };
       window.addEventListener('message', listener);
     });
