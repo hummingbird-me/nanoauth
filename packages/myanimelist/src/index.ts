@@ -1,5 +1,5 @@
 import { getAuthorization, OAuth2Response } from '@nanoauth/base';
-import { pkce, state } from '@nanoauth/middleware';
+import { pkcePlain, state } from '@nanoauth/middleware';
 
 export default async function getMyAnimeListAuthorization({
   clientId,
@@ -18,6 +18,6 @@ export default async function getMyAnimeListAuthorization({
 
   return getAuthorization({
     url: url.toString(),
-    middlewares: [pkce(), state()],
+    middlewares: [pkcePlain(), state()],
   });
 }
