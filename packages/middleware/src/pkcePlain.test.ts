@@ -1,4 +1,4 @@
-import pkcePlain from './pkce';
+import pkcePlain from './pkcePlain';
 
 jest.mock('./util/random64');
 
