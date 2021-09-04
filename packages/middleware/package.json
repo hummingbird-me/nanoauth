@@ -28,5 +28,8 @@
   "gitHead": "3e361c59f0264f9c79feb7b0edf35b2c6f31c5c5",
   "dependencies": {
     "@nanoauth/base": "^0.2.2"
+  },
+  "devDependencies": {
+    "@peculiar/webcrypto": "^1.1.7"
   }
 }
